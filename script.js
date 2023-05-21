@@ -24,7 +24,7 @@ function dividir(n1, n2){
 }
 
 function reiniciar(operacao){
-  var operacao = Number (prompt('Escolha uma das opções: 1- Soma 2- Subtração 3- Multiplicação 4- Divisão 0- Sair: '))
+  var operacao = Number (prompt('Escolha uma das opções: \n1- Soma \n2- Subtração \n3- Multiplicação \n4- Divisão \n0- Sair: '))
   var opcao = operacao;
 
   if(operacao == 0){
